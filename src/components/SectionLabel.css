@@ -1,0 +1,23 @@
+.section-label {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.section-label-number {
+  font-size: 13px;
+  color: var(--accent);
+}
+
+.section-label-filename {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: 600;
+  margin: 0;
+}
+
+.section-label-rule {
+  height: 1px;
+  flex: 1;
+  background: var(--border);
+}
